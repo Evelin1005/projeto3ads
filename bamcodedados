@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Alunos</h1>
+    </header>
+    <nav></nav>
+    <main>
+        <div id="formulario">
+            <form action method>
+                Nome: <input type="text" name="nome"><br>
+                Senha: <input type="password" name="senha"> <br>
+                Sexo: <input type="radio" name="sexo" value="Masculino"> Masculino
+                      <input type="radio" name="sexo" value="Feminino"> Feminino <br>
+
+                Musicas : <br>
+                <input type="checkbox" name="Musicas">Sertanejo <br>
+                <input type="checkbox" name="Musicas">K-pop <br>
+                <input type="checkbox" name="Musicas">MPB <br>
+                <input type="checkbox" name="Musicas">Pagode <br>
+                
+                Cidade : <select name="Cidade">
+                    <option value="Quatro Barras">Quatro Barras</option>
+                    <option value="Campina Grande do Sul">Campona Grande do Sul</option>
+                    <option value="Almirante Tamandaré">Almirante Tamandaré</option>
+                    <option value="Pinhais">Pinhais</option>
+                </select>
+
+            </form>
+
+        </div>
+    </main>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+body{
+    background-color: violet;
+}
+
+h1{
+    color: purple;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
